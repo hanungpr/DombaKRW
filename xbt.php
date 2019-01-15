@@ -70,6 +70,7 @@ while($x <= $banyak) {
         sleep(5);
     } else if (stripos($ekse , "Access denied")){
         echo "ACCESS DENIED - Change IP ./HanungGanteng";
+        break;
     } else if (stripos($ekse , "Too Many Requests")){
         echo "To Many Requests - (Sleep 20s) ./HanungGanteng";
         sleep(20);
